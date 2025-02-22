@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="boldo.css">
+    <title>Serveis de Teleassistència</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .boton-volver {
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .boton-volver:hover {
+            background-color: #0056b3;
+        }
+        .contenedor {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .recuadro {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            width: 300px;
+            text-align: center;
+        }
+        h2 {
+            border-bottom: 2px solid #000;
+            padding-bottom: 5px;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="boton-volver">Volver</a>
+    <div class="contenedor">
+        <div class="recuadro">
+            <h2>UCR</h2>
+            <p>Dispositiu que permet la comunicació des del domicili a una central d’atenció 24 h 365 dies l’any.</p>
+            <img src="ucr.jpg" alt="UCR">
+        </div>
+
+        <div class="recuadro">
+            <h2>Rellotge GPS</h2>
+            <p>Rellotge que té incorporat un GPS per localitzar al teu familiar en tot moment, avisa a emergències si surt de la zona de seguretat. Ideal per a persones amb patologies neurodegeneratives.</p>
+            <img src="rellotge_gps.jpg" alt="Rellotge GPS">
+        </div>
+
+        <div class="recuadro">
+            <h2>Sistema TELPES</h2>
+            <p>Teleassistència per a persones amb dificultats auditives, alarmes lumíniques per alertar a les persones que ho necessitin.</p>
+            <img src="sistema_telpes.jpg" alt="Sistema TELPES">
+        </div>
+    </div>
+</body>
+</html>
+
+
